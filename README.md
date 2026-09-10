@@ -4,6 +4,9 @@
 [![Version](https://img.shields.io/badge/Version-3.0-orange.svg)]()
 A comprehensive typography, reading-direction, and utility plugin for [KOReader](https://github.com/koreader/koreader) on E-ink devices. It automatically detects Arabic books, applies optimal Arabic typesetting defaults, provisions bundled fonts, and streamlines reading workflows across EPUBs and PDFs without overwriting your manual configurations.
 ---
+
+[![Download Latest Release](https://img.shields.io/github/v/release/mahmoudfa/arabicenhancement.koplugin?label=Download%20Plugin&color=green)](https://github.com/mahmoudfa/arabicenhancement.koplugin/releases/latest/download/arabicenhancement.koplugin.zip)
+
 ## Key Features
 ### 1. Smart Arabic Detection & Instant RTL
 On opening any document, the plugin scans:
