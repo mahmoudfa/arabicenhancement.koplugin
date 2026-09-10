@@ -1,0 +1,25 @@
+name: Package KOReader Plugin
+
+on:
+  release:
+    types: [published]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          path: arabicenhancement.koplugin
+
+      - name: Create Clean Zip
+        run: |
+          zip -r arabicenhancement.koplugin.zip arabicenhancement.koplugin -x "arabicenhancement.koplugin/.git*"
+
+      - name: Upload Release Asset
+        uses: softprops/action-gh-release@v2
+        with:
+          files: arabicenhancement.koplugin.zip
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
