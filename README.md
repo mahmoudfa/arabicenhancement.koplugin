@@ -1,7 +1,7 @@
 # Arabic Enhancement — `arabicenhancement.koplugin`
 [![License: AGPL-3.0](https://img.shields.io/badge/License-AGPL--3.0-blue.svg)](LICENSE)
 [![KOReader Plugin](https://img.shields.io/badge/KOReader-Plugin-green.svg)](https://github.com/koreader/koreader)
-[![Version](https://img.shields.io/badge/Version-3.0-orange.svg)]()
+[![Version](https://img.shields.io/badge/Version-1.0-orange.svg)]()
 A comprehensive typography, reading-direction, and utility plugin for [KOReader](https://github.com/koreader/koreader) on E-ink devices. It automatically detects Arabic books, applies optimal Arabic typesetting defaults, provisions bundled fonts, and streamlines reading workflows across EPUBs and PDFs without overwriting your manual configurations.
 ---
 
